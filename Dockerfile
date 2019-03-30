@@ -6,7 +6,7 @@ LABEL org.label-schema.vcs-ref=$VCS_REF \
       org.label-schema.vcs-url="https://github.com/vfarcic/kubectl" \
       org.label-schema.docker.dockerfile="/Dockerfile"
 
-ENV HELM_LATEST_VERSION v2.11.0
+ENV HELM_LATEST_VERSION v2.13.0
 ENV KUBE_LATEST_VERSION v1.10.0
 
 RUN apk add -U ca-certificates git curl && \
